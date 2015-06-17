@@ -13,22 +13,16 @@
         android:layout_alignEnd="@+id/tvCalEvt1"
         android:layout_marginTop="54dp" />
 
-    <ScrollView
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:id="@+id/scrollView"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="Cal Test"
             android:id="@+id/tvres"
             android:layout_marginTop="45dp"
             android:layout_below="@+id/tvCalEvt"
             android:layout_centerHorizontal="true" />
 
-</ScrollView>
 
     <TextView android:text=" End Calendar Event" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
