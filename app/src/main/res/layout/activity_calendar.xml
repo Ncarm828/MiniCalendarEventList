@@ -9,9 +9,9 @@
     <TextView android:text="Calendar Event" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tvCalEvt"
+        android:layout_marginTop="54dp"
         android:layout_alignParentTop="true"
-        android:layout_alignEnd="@+id/tvCalEvt1"
-        android:layout_marginTop="54dp" />
+        android:layout_alignEnd="@+id/tvres" />
 
 
         <TextView
@@ -19,7 +19,8 @@
             android:layout_height="wrap_content"
             android:text="Cal Test"
             android:id="@+id/tvres"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="36dp"
+            android:nestedScrollingEnabled="true"
             android:layout_below="@+id/tvCalEvt"
             android:layout_centerHorizontal="true" />
 
@@ -27,10 +28,9 @@
     <TextView android:text=" End Calendar Event" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tvCalEvt1"
-        android:layout_marginBottom="68dp"
+        android:layout_marginBottom="36dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignStart="@+id/scrollView"
-        android:layout_marginStart="45dp" />
+        android:layout_alignStart="@+id/tvCalEvt" />
 
 
 </RelativeLayout>
